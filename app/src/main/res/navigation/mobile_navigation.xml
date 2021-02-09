@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.karan_brahmaxatriya.inboxtechstaskapp.ui.dashboard.ui.addCategories.AddCategoriesFragment"
+        android:label="Categories"
+        tools:layout="@layout/fragment_add_categories" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.karan_brahmaxatriya.inboxtechstaskapp.ui.dashboard.ui.subcategories.SubCategoriesFragment"
+        android:label="Sub Categories"
+        tools:layout="@layout/fragment_sub_categories" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.karan_brahmaxatriya.inboxtechstaskapp.ui.dashboard.ui.units.UnitsFragment"
+        android:label="Units"
+        tools:layout="@layout/fragment_units" />
+    <fragment
+        android:id="@+id/nav_weight"
+        android:name="com.karan_brahmaxatriya.inboxtechstaskapp.ui.dashboard.ui.weight.WeightFragment"
+        android:label="Weight"
+        tools:layout="@layout/fragment_weight" />
+    <fragment
+        android:id="@+id/nav_product"
+        android:name="com.karan_brahmaxatriya.inboxtechstaskapp.ui.dashboard.ui.products.ProductsFragment"
+        android:label="Products"
+        tools:layout="@layout/fragment_products" />
+</navigation>
